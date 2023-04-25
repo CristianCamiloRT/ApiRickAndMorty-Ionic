@@ -1,0 +1,52 @@
+ion-grid {
+    background-color: #6ec20d;
+}
+
+ion-card-title, ion-card-subtitle {
+    color: white;
+}
+
+ion-toolbar {
+    --background: #5ca645;
+}
+
+ion-button {
+    --background: #13b0ac;
+}
+.btns {
+    background-color: #6ec20d;
+    margin: auto;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+  .card {
+    background-color: rgba(3, 173, 199, 0.8549019608);
+    border-radius: 15px;
+    margin: auto;
+    padding: 20px;
+    max-width: 335px;
+    width: 100%;
+    color: white;
+
+        img {
+        border-radius: 50%;
+        margin-bottom: 16px;
+        max-width: 100%;
+        }
+
+        h2 {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 8px;
+        }
+
+        p {
+        font-size: 16px;
+        margin-bottom: 8px;
+        }
+  }
+}
